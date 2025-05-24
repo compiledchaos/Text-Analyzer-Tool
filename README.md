@@ -1,6 +1,6 @@
 # Text Analyzer Tool
 
-This project is a simple text analysis tool built in Python for learning purposes. It uses the NLTK library to tokenize text, count word frequencies, and identify the top 10 most frequent words in a text file.
+This project is a simple text analysis tool built in Python for learning purposes. It uses the NLTK & Matplotlib libraries to tokenize text, count word frequencies, identify the top 10 most frequent words in a text file, and creates a graph displaying the top 50 most frequent words.
 
 ## Features
 
@@ -8,6 +8,7 @@ This project is a simple text analysis tool built in Python for learning purpose
 - Counts the frequency of each word
 - Finds and saves the top 10 most frequent words
 - Outputs results to text files
+- Displays top 50 most frequent words as a bar graph
 
 ## How to Use
 
@@ -17,15 +18,24 @@ This project is a simple text analysis tool built in Python for learning purpose
    - `word_frequency`: All word frequencies
    - `top_words`: The top 10 most frequent words
    - `analyzed_text`: A summary of the analysis
+   - `Graph.png`: The top 50 most frequent words as a graph
 
 ## Requirements
 
 - Python 3.x
 - NLTK
+- Matplotlib
 
 Install NLTK with:
+
 ```
 pip install nltk
+```
+
+Install Matplotlib with:
+
+```
+pip install matplotlib
 ```
 
 ## Purpose
